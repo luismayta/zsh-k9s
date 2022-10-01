@@ -1,8 +1,7 @@
 <!-- Space: Projects -->
-<!-- Parent: ZshPluginTemplate -->
-<!-- Title: Releasing ZshPluginTemplate -->
-
-<!-- Label: ZshPluginTemplate -->
+<!-- Parent: ZshK9s -->
+<!-- Title: Releasing ZshK9s -->
+<!-- Label: ZshK9s -->
 <!-- Label: Project -->
 <!-- Label: Releasing -->
 <!-- Include: disclaimer.md -->
@@ -12,7 +11,7 @@
 
 ## Bump a new version
 
-Make a new version of zsh-plugin-template in the following steps:
+Make a new version of zsh-k9s in the following steps:
 
 ### Generate version major
 

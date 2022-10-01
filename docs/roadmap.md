@@ -1,7 +1,6 @@
 <!-- Space: Projects -->
-<!-- Parent: ZshPluginTemplate -->
-<!-- Title: Roadmap ZshPluginTemplate -->
-
+<!-- Parent: ZshK9s -->
+<!-- Title: Roadmap ZshK9s -->
 <!-- Label: Roadmap -->
 <!-- Include: disclaimer.md -->
 <!-- Include: ac:toc -->
@@ -30,7 +29,7 @@
 
 The Roadmap is a list of all the things we're working on for the year.
 
-You can see the corresponding projects on [zsh-plugin-template](https://github.com/hadenlabs/zsh-plugin-template)
+You can see the corresponding projects on [zsh-k9s](https://github.com/hadenlabs/zsh-k9s)
 
 ## Legend
 
