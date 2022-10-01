@@ -1,7 +1,7 @@
 #!/usr/bin/env ksh
 # -*- coding: utf-8 -*-
 
-function zsh-k9s::internal::main::factory {
+function k9s::internal::main::factory {
     # shellcheck source=/dev/null
     source "${ZSH_K9S_PATH}"/internal/base.zsh
     case "${OSTYPE}" in
@@ -18,4 +18,6 @@ function zsh-k9s::internal::main::factory {
     source "${ZSH_K9S_PATH}"/internal/helper.zsh
 }
 
-zsh-k9s::internal::main::factory
+k9s::internal::main::factory
+
+if ! core::exists k9s; then core::install k9s; fi

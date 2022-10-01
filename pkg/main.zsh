@@ -1,7 +1,7 @@
 #!/usr/bin/env ksh
 # -*- coding: utf-8 -*-
 
-function zsh-k9s::pkg::main::factory {
+function k9s::pkg::main::factory {
     # shellcheck source=/dev/null
     source "${ZSH_K9S_PATH}"/pkg/base.zsh
     case "${OSTYPE}" in
@@ -21,4 +21,4 @@ function zsh-k9s::pkg::main::factory {
     source "${ZSH_K9S_PATH}"/pkg/alias.zsh
 }
 
-zsh-k9s::pkg::main::factory
+k9s::pkg::main::factory
