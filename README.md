@@ -12,79 +12,66 @@
 
   -->
 
-[![Latest Release](https://img.shields.io/github/release/hadenlabs/zsh-plugin-template)](https://github.com/hadenlabs/zsh-plugin-template/releases) [![Lint](https://img.shields.io/github/workflow/status/hadenlabs/zsh-plugin-template/lint-code)](https://github.com/hadenlabs/zsh-plugin-template/actions?workflow=lint-code) [![CI](https://img.shields.io/github/workflow/status/hadenlabs/zsh-plugin-template/ci)](https://github.com/hadenlabs/zsh-plugin-template/actions?workflow=ci) [![Test](https://img.shields.io/github/workflow/status/hadenlabs/zsh-plugin-template/test)](https://github.com/hadenlabs/zsh-plugin-template/actions?workflow=test) [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit) [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow)](https://conventionalcommits.org) [![KeepAChangelog](https://img.shields.io/badge/changelog-Keep%20a%20Changelog%20v1.0.0-orange)](https://keepachangelog.com)
+[![Latest Release](https://img.shields.io/github/release/hadenlabs/zsh-k9s)](https://github.com/hadenlabs/zsh-k9s/releases) [![Lint](https://img.shields.io/github/workflow/status/hadenlabs/zsh-k9s/lint-code)](https://github.com/hadenlabs/zsh-k9s/actions?workflow=lint-code) [![CI](https://img.shields.io/github/workflow/status/hadenlabs/zsh-k9s/ci)](https://github.com/hadenlabs/zsh-k9s/actions?workflow=ci) [![Test](https://img.shields.io/github/workflow/status/hadenlabs/zsh-k9s/test)](https://github.com/hadenlabs/zsh-k9s/actions?workflow=test) [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit) [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow)](https://conventionalcommits.org) [![KeepAChangelog](https://img.shields.io/badge/changelog-Keep%20a%20Changelog%20v1.0.0-orange)](https://keepachangelog.com)
 
-# zsh-plugin-template
+# zsh-k9s
 
-zsh-plugin-template for project
-
-### Replace name project to New Project
-
-```bash
-  agr 'zsh-plugin-template' 'new-project'
-  agr 'plugin-template' 'name_template'
-  agr 'PLUGIN_TEMPLATE' 'NAME_TEMPLATE'
-  agr 'ZshPluginTemplate' 'NameTemplate'
-```
+zsh-k9s for project
 
 ## Requirements
 
 This is a list of plugins that need to be installed previously to enjoy all the goodies of this configuration:
 
 - [zsh-core](https://github.com/hadenlabs/zsh-core)
-
-* [gomplate](https://github.com/hairyhenderson/gomplate)
-* [python](https://www.python.org)
-* [taskfile](https://github.com/go-task/task)
+- [gomplate](https://github.com/hairyhenderson/gomplate)
+- [python](https://www.python.org)
+- [taskfile](https://github.com/go-task/task)
 
 ## Installation
 
 <!-- Space: Projects -->
 <!-- Parent: Project -->
-<!-- Title: Project Installation Oh-My-Zsh -->
-
-<!-- Label: ZshPluginTemplate -->
+<!-- Title: Installation Oh-My-Zsh ZshK9s -->
+<!-- Label: ZshK9s -->
 <!-- Label: Project -->
 <!-- Label: Installation -->
 <!-- Label: Oh-My-Zsh -->
 <!-- Include: docs/disclaimer.md -->
 <!-- Include: ac:toc -->
 
-### [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) users
+### [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh) users
 
-If you're using [oh-my-zsh](https://gitub.com/robbyrussell/oh-my-zsh), install this plugin by doing the following:
+If you're using [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh), install this plugin by doing the following:
 
 1.  Go to your oh-my-zsh custom plugins directory -`cd ~/.oh-my-zsh/custom/plugins`
-2.  Clone the plugin `bash git clone https://github.com/hadenlabs/zsh-plugin-template`bash
-3.  Edit your `.zshrc` and add `plugins=( ... zsh-plugin-template )` to your list of plugins
+2.  Clone the plugin `bash git clone https://github.com/hadenlabs/zsh-k9s`bash
+3.  Edit your `.zshrc` and add `plugins=( ... zsh-k9s )` to your list of plugins
 4.  Open a new terminal and enjoy!
     <!-- Space: Projects -->
     <!-- Parent: Project -->
-    <!-- Title: Project Installation Antigen -->
-
-<!-- Label: ZshPluginTemplate -->
-<!-- Label: Project -->
-<!-- Label: Installation -->
-<!-- Label: Antigen -->
-<!-- Include: docs/disclaimer.md -->
-<!-- Include: ac:toc -->
+    <!-- Title: Installation Antigen ZshK9s -->
+    <!-- Label: ZshK9s -->
+    <!-- Label: Project -->
+    <!-- Label: Installation -->
+    <!-- Label: Antigen -->
+    <!-- Include: docs/disclaimer.md -->
+    <!-- Include: ac:toc -->
 
 ### [antigen](https://github.com/zsh-users/antigen) users
 
 If you're using [Antigen](https://github.com/zsh-users/antigen), install this plugin by doing the following:
 
-1.  Add `antigen bundle hadenlabs/zsh-plugin-template` to your `.zshrc` where you're adding your other plugins.
-2.  Either open a new terminal to force zsh to load the new plugin, or run `antigen bundle hadenlabs/zsh-plugin-template` in a running zsh session.
+1.  Add `antigen bundle hadenlabs/zsh-k9s` to your `.zshrc` where you're adding your other plugins.
+2.  Either open a new terminal to force zsh to load the new plugin, or run `antigen bundle hadenlabs/zsh-k9s` in a running zsh session.
 3.  Enjoy!
     <!-- Space: Projects -->
     <!-- Parent: Project -->
-    <!-- Title: Project Installation Antibody -->
-
-<!-- Label: ZshPluginTemplate -->
-<!-- Label: Project -->
-<!-- Label: Installation -->
-<!-- Include: docs/disclaimer.md -->
-<!-- Include: ac:toc -->
+    <!-- Title: Installation Antibody ZshK9s -->
+    <!-- Label: ZshK9s -->
+    <!-- Label: Project -->
+    <!-- Label: Installation -->
+    <!-- Include: docs/disclaimer.md -->
+    <!-- Include: ac:toc -->
 
 ### [antibody](https://github.com/getantibody/antibody) users
 
@@ -93,24 +80,27 @@ If you're using [Antibody](https://github.com/getantibody/antibody), install thi
 1.  Add :
 
 ```{.sourceCode .bash}
-antibody bundle hadenlabs/zsh-plugin-template
+antibody bundle hadenlabs/zsh-k9s
 ```
 
 to your `.zshrc` where you're adding your other plugins.
 
-2.  Either open a new terminal to force zsh to load the new plugin, or run `antibody bundle hadenlabs/zsh-plugin-template` in a running zsh session.
+2.  Either open a new terminal to force zsh to load the new plugin, or run `antibody bundle hadenlabs/zsh-k9s` in a running zsh session.
 3.  Enjoy!
 
 ## Usage
 
 # How to use this project
 
+```bash
+task setup
+```
+
 ## Examples
 
 <!-- Space: Projects -->
-<!-- Parent: ZshPluginTemplate -->
-<!-- Title: Examples ZshPluginTemplate -->
-
+<!-- Parent: ZshK9s -->
+<!-- Title: Examples ZshK9s -->
 <!-- Label: Examples -->
 <!-- Include: ./../disclaimer.md -->
 <!-- Include: ac:toc -->
@@ -120,7 +110,6 @@ to your `.zshrc` where you're adding your other plugins.
  <!-- Space: Projects -->
 <!-- Parent: Project -->
 <!-- Title: Functions -->
-
 <!-- Label: Functions -->
 <!-- Include: docs/disclaimer.md -->
 <!-- Include: ac:toc -->
@@ -131,7 +120,7 @@ to your `.zshrc` where you're adding your other plugins.
 
 **Got a question?**
 
-File a GitHub [issue](https://github.com/hadenlabs/zsh-plugin-template/issues).
+File a GitHub [issue](https://github.com/hadenlabs/zsh-k9s/issues).
 
 ## Contributing
 
@@ -164,6 +153,6 @@ All other trademarks referenced herein are the property of their respective owne
 
 The code and styles are licensed under the LGPL-3.0 license [See project license.](LICENSE).
 
-## Don't forget to 🌟 Star 🌟 the repo if you like zsh-plugin-template
+## Don't forget to 🌟 Star 🌟 the repo if you like zsh-k9s
 
-[Your feedback is appreciated](https://github.com/hadenlabs/zsh-plugin-template/issues)
+[Your feedback is appreciated](https://github.com/hadenlabs/zsh-k9s/issues)

@@ -1,11 +1,11 @@
 {
-  "baseUrl": "https://github.com/hadenlabs/zsh-plugin-template",
+  "baseUrl": "https://github.com/hadenlabs/zsh-k9s",
   "ignorePatterns": [
     {
       "pattern": "^https://hadenlabs.com"
     },
     {
-      "pattern": "^https://github.com/hadenlabs/zsh-plugin-template/compare"
+      "pattern": "^https://github.com/hadenlabs/zsh-k9s/compare"
     }
   ],
   "replacementPatterns": [
