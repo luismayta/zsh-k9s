@@ -1,0 +1,29 @@
+# $HOME/.k9s/plugin.yml
+plugin:
+  ###
+  # List get all resources.
+  ###
+  get-all:
+    shortCut: g
+    confirm: false
+    description: get-all
+    scopes:
+      - all
+    command: sh
+    background: false
+    args:
+      - -c
+      - "kubectl get all -n ${NAMESPACE} | less"
+  ###
+  # Deletes a cluster context using kubectx
+  ###
+  delete-ctx:
+    shortCut: Ctrl-D
+    confirm: true
+    description: Delete context
+    scopes:
+      - contexts
+    command: kubectx
+    args:
+      - -d
+      - ${NAME}
