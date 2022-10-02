@@ -15,6 +15,7 @@ k9s:
   readOnly: false
   # Toggles icons display as not all terminal support these chars.
   noIcons: false
+  noExitOnCtrlC: false
 
   # Logs configuration
   logger:
@@ -30,43 +31,33 @@ k9s:
     textWrap: false
     # Toggles log line timestamp info. Default false
     showTime: false
-
-  # # Indicates the current Kube context. Defaults to current context
-  # currentContext: minikube
-  # # Indicates the current kube cluster. Defaults to current context cluster
-  # currentCluster: minikube
-  # # Persists per cluster preferences for favorite namespaces and view.
-
-  # clusters:
-  #   cluster1:
-  #     namespace:
-  #       active: coolio
-  #       favorites:
-  #       - cassandra
-  #       - default
-  #     view:
-  #       active: po
-  #     featureGates:
-  #       # Toggles NodeShell support. Allow K9s to shell into nodes if needed. Default false.
-  #       nodeShell: false
-  #     # Provide shell pod customization of feature gate is enabled
-  #     shellPod:
-  #       # The shell pod image to use.
-  #       image: killerAdmin
-  #       # The namespace to launch to shell pod into.
-  #       namespace: fred
-  #       # The resource limit to set on the shell pod.s
-  #       limits:
-  #         cpu: 100m
-  #         memory: 100Mi
-  #     # The IP Address to use when launching a port-forward.
-  #     portForwardAddress: 1.2.3.4
-  #   cluster2:
-  #     namespace:
-  #       active: all
-  #       favorites:
-  #       - all
-  #       - kube-system
-  #       - default
-  #     view:
-  #       active: dp
+  currentContext: local
+  currentCluster: kubernetes
+  clusters:
+    kubernetes:
+      namespace:
+        active: all
+        lockFavorites: false
+        favorites:
+          - default
+      view:
+        active: ctx
+      featureGates:
+        nodeShell: false
+      shellPod:
+        image: busybox:1.35.0
+        command: []
+        args: []
+        namespace: default
+        limits:
+          cpu: 100m
+          memory: 100Mi
+      portForwardAddress: localhost
+  thresholds:
+    cpu:
+      critical: 90
+      warn: 70
+    memory:
+      critical: 90
+      warn: 70
+  screenDumpDir: /tmp
