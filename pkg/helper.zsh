@@ -4,7 +4,7 @@
 # editk9s edit settings for k9s
 function editk9s {
     if [ -z "${EDITOR}" ]; then
-        message_warning "it's neccesary the var EDITOR"
+        message_warning "it's necessary the var EDITOR"
         return
     fi
     "${EDITOR}" "${K9S_FILE_SETTINGS}"

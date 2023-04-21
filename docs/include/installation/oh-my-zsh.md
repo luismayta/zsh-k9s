@@ -1,5 +1,5 @@
 <!-- Space: Projects -->
-<!-- Parent: Project -->
+<!-- Parent: ZshK9s -->
 <!-- Title: Installation Oh-My-Zsh ZshK9s -->
 <!-- Label: ZshK9s -->
 <!-- Label: Project -->

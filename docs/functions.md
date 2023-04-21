@@ -1,5 +1,5 @@
 <!-- Space: Projects -->
-<!-- Parent: Project -->
+<!-- Parent: ZshK9s -->
 <!-- Title: Functions -->
 <!-- Label: Functions -->
 <!-- Include: docs/disclaimer.md -->
