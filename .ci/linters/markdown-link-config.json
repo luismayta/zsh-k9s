@@ -1,10 +1,6 @@
 {
   "baseUrl": "https://github.com/hadenlabs/zsh-k9s",
-  "ignorePatterns": [
-    {
-      "pattern": "^https://hadenlabs.com"
-    }
-  ],
+  "ignorePatterns": [],
   "replacementPatterns": [
     {
       "pattern": "^/docs",

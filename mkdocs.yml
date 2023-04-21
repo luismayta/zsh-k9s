@@ -17,7 +17,7 @@ extra:
 
 repo_name: "hadenlabs/zsh-k9s"
 repo_url: "https://github.com/hadenlabs/zsh-k9s"
-copyright: 'Copyright © 2021 <a href="https://hadenlabs.com">hadenlabs</a>'
+copyright: 'Copyright © 2021 <a href="https://github.com/hadenlabs">hadenlabs</a>'
 
 google_analytics:
   - ""
